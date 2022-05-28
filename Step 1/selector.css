@@ -16,10 +16,17 @@ li {
 }
 #yellow {
     background-color: yellow;
+    height: 185px;
 }
 #blue {
     background-color: blue;
+    height: 130px;
 }
 #red {
     background-color: red;
+    height: 130px;
+}
+#yellow, #blue, #red {
+    margin: 0;
+    padding: 0;
 }

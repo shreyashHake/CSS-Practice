@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+
+        .main {
+            background-color: antiquewhite;
+        }
+
+        h1, li, a{
+            color: red;
+        }
+
+        li {
+            font-size: medium;
+        }
+
+        #first , #second, #third{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: aqua;
+        }
+
+        #yellow {
+            background-color: yellow;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+
+        #red {
+            background-color: red;
+        }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="main">
+      <h1>Various selectors in CSS</h1>
+      <br />
+
+      <ol>
+        <li>element selector</li>
+        <div class="red" id="first">
+          <p>
+            We can select any tag like <b>h1 - h6</b>, <b>div</b>, <b>li</b>,
+            etc to create style
+          </p>
+        </div>
+
+        <li>id selector</li>
+        <div id="second">
+          <p>We use <b>#idName</b> to create style</p>
+        </div>
+
+        <li>class selector</li>
+        <div id="third">
+          <p>We use <b>.className</b> to create style</p>
+        </div>
+      </ol>
+    </div>
+
+    <h1> <a href="https://g.co/kgs/8DX1ZH" target="_blank">Creating Ecuador flag</a> </h1>
+    <div class="flag">
+        <pre id="yellow">
+
+
+
+
+
+
+
+        </pre>
+
+        <pre id="blue">
+
+
+
+
+
+        </pre>
+
+        <pre id="red">
+
+
+
+
+
+        </pre>
+    </div>
+  </body>
+</html>

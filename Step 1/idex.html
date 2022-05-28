@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Starting</title>
+
+    <style>
+      body {
+        background-color: aqua;
+        border: 10%;
+        border-color: brown;
+      }
+
+      #first {
+        color: blueviolet;
+      }
+
+      div, p, pre {
+          font-size: medium;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- **Note** : Each 'element' can have only one unique 'id' but can have multiple 'class'  -->
+
+    <h1>Here we start with CSS....</h1>
+    <h2>Displaying the different ways how we can integrate css :</h2>
+    <ol>
+
+      <div id="first">
+        <li><b> Using 'style' tag</b></li><br>
+      </div>
+
+      <div id="second" style="color: red">
+        <li><b> Internal/Inline CSS</b></li><br>
+      </div>
+
+      <div id="third">
+        <li><b> External CSS</b></li><br>
+      </div>
+
+      <!-- We can also add 'class' in the 'div' tag and style using that class   eg : .className { content }  -->
+      <p><b>Inline</b> tag has <i>higer priority</i> than that of <b>External css</b> and <b>style tag.</b>... </p>
+         <pre><b>    Inline css >  style tag  >  External css</b></pre><br>
+
+         <p><b>Depeding upon which one is written first : </b></p>
+         <pre><b>     style tag  >  External css</b>   if External css is added first and then style tag</pre>
+         <p><b>OR</b></p>
+         <pre><b>     External css > style tag</b>   if style tag is added first and then External css</pre>
+    </ol>
+  </body>
+</html>

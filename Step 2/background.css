@@ -1,0 +1,21 @@
+#first {
+    background-color: antiquewhite;
+    height: 150px;
+    border: 3px solid;
+    padding: 10px;
+}
+
+ b {
+    color: red;
+    background-color: aqua;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#second {
+    background: url(background.jpg);
+    height: 600px;
+    background-repeat: repeat-x;
+    background-size: 250px 600px;
+    
+}

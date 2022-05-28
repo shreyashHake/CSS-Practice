@@ -1,0 +1,17 @@
+.container {
+    background-color: antiquewhite;
+}
+
+h2 {
+    color: red;
+    background-color: azure;
+    border: 2px double;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+    color: blue;
+    border: 2px solid;
+    padding: 10px;
+}

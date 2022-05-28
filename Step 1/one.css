@@ -1,0 +1,20 @@
+h2 {
+    background-color: aqua;
+    color: red;
+}
+.red {
+    background-color: rgb(231, 111, 111);
+    color: antiquewhite;
+}
+#head {
+    background-color: antiquewhite;
+}
+/* using multiple class on single element  */
+.green {
+    background-color: beige;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blue {
+    color: blue;
+}

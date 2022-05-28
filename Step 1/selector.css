@@ -1,0 +1,25 @@
+body {
+    background-color: aliceblue;
+}
+.main {
+    background-color: antiquewhite;
+}
+h1, li, a{
+    color: red;
+}
+li {
+    font-size: medium;
+}
+#first , #second, #third{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+}
+#yellow {
+    background-color: yellow;
+}
+#blue {
+    background-color: blue;
+}
+#red {
+    background-color: red;
+}

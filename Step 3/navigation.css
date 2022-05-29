@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+    color: black;
+    font-size: 24px;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.container {
+    background-color: aqua;
+    height: 90vh;
+    margin: 5px;
+    border: 2px solid blue;
+    padding: 15px;
+}
+
+footer {
+    background-color: chartreuse;
+    color: blue;
+    font-size: medium;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.center {
+    text-align: center;
+}

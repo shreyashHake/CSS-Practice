@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    width: 400px;
+}
+
+.heightAndWidth {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
+
+.marginAndPadding {
+    background-color: aqua;
+    /* margin: 10px;    set marging from all end as 10px */
+    /* margin: 10px 8px 6px 4px;    setting marging of " top, right, bottom, left " respectively */
+    padding: 10px;
+    border: 8px solid red;
+    border-radius: 150px;
+}
+
+.box1 {
+    background-color: red;
+    margin: 18px;
+    padding: 2px;
+    height: 400px;
+    width: 400px;
+}
+
+.box2 {
+    background-color: aqua;
+    box-sizing: border-box;
+    height: 20x;
+    width: 20px;
+}

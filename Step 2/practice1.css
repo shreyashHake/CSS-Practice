@@ -1,0 +1,36 @@
+ul {
+  background-color: antiquewhite;
+  color: aqua;
+  width: 195px;
+}
+
+.quetion2 {
+  background-color: red;
+  font-size: medium;
+  color: rgb(221, 249, 9);
+}
+
+.quetion3 {
+  background-image: url(background.jpg);
+  background-size: 500px 500px;
+  height: 750px;
+  width: 750px;
+}
+
+.quetion4 {
+  background-image: url(background.jpg);
+  background-size: 400px 400px;
+  background-color: aqua;
+  height: 1750px;
+  width: 750px;
+  background-position: left center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.quetion5 {
+  background: antiquewhite url(background.jpg) no-repeat left center;
+  background-size: 150px 150px;
+  height: 500px;
+  width: 500px;
+}

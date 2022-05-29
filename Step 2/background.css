@@ -19,3 +19,30 @@
     background-size: 250px 600px;
     
 }
+
+#third {
+    border: 2px solid red;
+    background-image: url(background.jpg);
+    background-size: 50px 50px;
+    background-repeat: repeat-y;
+    background-position:  center;
+    height: 150px;
+}
+
+#four {
+    border: 2px solid red;
+    background-image: url(background.jpg);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#five {
+    /* assinging many styling at onece */
+    background: antiquewhite url(background.jpg) no-repeat center scroll;
+    border: 2px solid red;
+    height: 1050px;
+    background-size: 150px 150px;
+}

@@ -1,0 +1,37 @@
+.container {
+    font-size: 20px;
+}
+
+.box {
+    font-size: 3em;
+}
+
+html {
+    font-size: 10px;
+}
+
+.box1 {
+    font-size: 3 rem;
+}
+
+.box3 {
+    background-color: aqua;
+    width: 50vw
+}
+
+.box4 {
+    background-color: aqua;
+    height: 50vh;
+}
+
+.box5 {
+    background-color: aqua;
+    height: 50vw;
+    width: 50vh;
+}
+
+.box6 {
+    background-color: aqua;
+    height: 50%;
+    width: 50%;
+}

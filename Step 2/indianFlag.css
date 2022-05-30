@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 100px;
+}
+
+.flag {
+    height: 600px;
+    border: 2px solid gold;
+
+}
+
+.orange {
+    height: 200px;
+    width: 900px;
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+}
+
+.white {
+    background-image: url(chakra.jpg);
+    background-attachment: fixed;
+    background-color: white;
+    height: 200px;
+    width: 900px;
+    margin: 0;
+    padding: 0;
+}
+
+.green {
+    height: 200px;
+    width: 900px;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}

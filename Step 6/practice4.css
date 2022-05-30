@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 64px;
+}
+
+ul {
+    display: inline;
+    padding: 20px 50px;
+}
+
+
+
+
+li {
+    list-style: none;
+    display: inline;
+    font-size: 24px;
+    padding: 0 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.background {
+    background-image: url(practice4.jpg);
+    height: 45vh;
+    width: 1920px;
+    background-size: 100vw 60vh;
+    clear: right;
+}
+
+.profile {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}

@@ -1,0 +1,14 @@
+.box1 {
+    background-color: aqua;
+    height: 234px;
+    width: 234px;
+    float: right;
+}
+
+.box2 {
+    background-color: yellowgreen;
+    height: 234px;
+    width: 234px;
+    float: right;
+    clear: both;
+}

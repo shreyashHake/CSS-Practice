@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+ul {
+    padding: 34px;
+    display: inline;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    font-size: 24px;
+    padding: 0 20px;
+}
+
+#logo {
+    padding: 5px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    background-color: blueviolet;
+    width: 40vw;
+    height: 50vh;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.right {
+    background-color: aqua;
+    width: 40vw;
+    height: 50vh;
+    margin-right: 5vw;
+    margin-top: 5vw;
+}

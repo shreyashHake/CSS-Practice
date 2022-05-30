@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    flex-direction: row;
+    background-color: antiquewhite;
+    height: 100vh;
+
+    /*1. Properties used on container  */
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* Space b/w the boxes */
+    /* align-items:center; */
+    align-content: center;
+
+    /* 2. Properties used on items  */
+    
+}
+
+.box1 {
+    background-color: aqua;
+    height: 234px;
+    /* width: 234px; */
+    border: 2px solid black;
+    order: 2;
+    align-self: flex-start;
+    /* flex-grow: 2; */
+    flex-shrink: 1;
+}
+
+.box2 {
+    background-color: yellowgreen;
+    height: 234px;
+    /* width: 234px; */
+    border: 2px solid black;
+    order: 1;
+    flex-grow: 1;
+}
+
+.box3 {
+    background-color: aqua;
+    height: 234px;
+    /* width: 234px; */
+    border: 2px solid black;
+    order: 4;
+    flex-grow: 2;
+}
+
+.box4 {
+    background-color: yellowgreen;
+    height: 234px;
+    /* width: 234px; */
+    border: 2px solid black;
+    order: 3;
+    flex-grow: 1;
+}

@@ -1,0 +1,5 @@
+** Note : not mentioned anywhere
+
+* Avoid using grid for creating, layout use them mostly to create tables..
+
+* We can use grid to create layout but using flex-box and media queries provides better layout for responsive web desing....

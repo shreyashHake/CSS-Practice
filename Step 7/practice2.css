@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    background-color: aqua;
+    color: red;
+    border: 2px solid grey;
+}
+
+ul li {
+    display: inline-grid;
+    margin: 10px 0 0 15px;
+    padding: 0 10px;
+}
+
+img #logo {
+    height: 22px;
+}
+
+.container {
+    background-color: antiquewhite;
+    height: 50vh;
+    padding: 15px;
+}
+
+.content2 {
+    background-color: violet;
+    height: 50vh;
+}
+
+.box1 .box2 .box3 {
+    background-color: red;
+    border: 3px solid gray;
+    width: 150px 150px;
+   
+}

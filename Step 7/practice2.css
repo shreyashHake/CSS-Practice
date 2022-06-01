@@ -16,7 +16,7 @@ ul li {
 }
 
 img #logo {
-    height: 22px;
+    height: 25px;
 }
 
 .container {
@@ -26,13 +26,17 @@ img #logo {
 }
 
 .content2 {
+    display: grid;
     background-color: violet;
-    height: 50vh;
+    height: 100vh;
+    grid-gap: 35px 15px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 25vh 25vh 25vh;
+    justify-content: space-around;
 }
 
 .box1 .box2 .box3 {
     background-color: red;
     border: 3px solid gray;
     width: 150px 150px;
-   
 }

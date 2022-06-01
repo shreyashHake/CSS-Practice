@@ -1,0 +1,15 @@
+img {
+    height: 35vh;
+
+}
+
+img:hover {
+    width: 146px;
+    height: 455px;
+    /* transition-property: height; */
+    /* transition-duration: 1s; */
+    /* transition-timing-function: ease; */
+    /* transition-delay: 1s; */
+
+    transition: width 2s ease-in 1s, height 2s ease-in-out 1s;
+}

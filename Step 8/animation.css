@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 25vh;
+    width: 25vw;
+    background-color: greenyellow;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Assinging animation */
+    /* animation-name: boxChange; */
+    /* animation-duration: 2s; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay: 1s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate-reverse; */
+
+    animation: boxChange 2s ease-in-out 1s infinite alternate-reverse;
+}
+
+.text {
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+
+}
+
+p {
+    animation: textChange 2s ease-in-out 1s infinite alternate-reverse;
+}
+
+@keyframes boxChange {
+    from {
+        height: 25vh;
+        width: 25vw;
+    }
+
+    to {
+        height: 40vh;
+        width: 40vw;
+    }
+}
+
+@keyframes texChange {
+    from {
+        font-size: 24px;
+    }
+
+    to {
+        font-size: 35px;
+    }
+}

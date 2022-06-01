@@ -1,0 +1,20 @@
+.con {
+    background-color: aqua;
+    border: 3px grey solid;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    animation: rotateImg .9s infinite;
+}
+
+@keyframes rotateImg {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}

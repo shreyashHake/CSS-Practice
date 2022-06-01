@@ -29,7 +29,8 @@
     /* animation-iteration-count: infinite; */
     /* animation-direction: alternate-reverse; */
 
-    animation: boxChange 2s ease-in-out 1s infinite alternate-reverse;
+    animation: boxChange 2s ease-in-out
+     1s infinite alternate-reverse;
 }
 
 .text {
@@ -39,19 +40,19 @@
 
 }
 
-p {
+.text {
     animation: textChange 2s ease-in-out 1s infinite alternate-reverse;
 }
 
 @keyframes boxChange {
     from {
-        height: 25vh;
-        width: 25vw;
+        height: 15vh;
+        width: 15vw;
     }
 
     to {
-        height: 40vh;
-        width: 40vw;
+        height: 30vh;
+        width: 30vw;
     }
 }
 
@@ -61,6 +62,6 @@ p {
     }
 
     to {
-        font-size: 35px;
+        font-size: 100px;
     }
 }

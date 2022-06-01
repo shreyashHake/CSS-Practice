@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    width: 100vw;
+    height: 10vh;
+}
+
+.content {
+    background: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    height: 300px;
+    width: 300px; 
+    padding: 0 12vh;
+    margin: 18vh 0;
+
+    animation: slide 10s ease infinite;
+}
+
+@keyframes slide {
+    from {
+        transform: translate(-61vw);
+    } to {
+        transform: translate(102vw);
+    }
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 10px;
+    background-color: white;
+}
+
+.box {
+    width: 20vw;
+    height: 2px;
+    background-color: red;
+    animation: moveBar -4S cubic-bezier(.46, .03, .52, .96) .5s infinite normal;
+}
+
+@keyframes moveBar {
+    /* Using width */
+    0% {
+        width: 0px;
+    }
+
+    50% {
+        width: 75vw;
+    }
+
+    to {
+        width: 100vw;
+    }
+
+    /* Using transform  */
+    /* from {transform: translate(0);} */
+    /* to {transform: translate(100vw);} */
+
+
+}
